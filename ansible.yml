@@ -1,0 +1,12 @@
+---
+name: ansible
+channels:
+  - base
+dependencies:
+  - pip:
+      - ansible
+      - ansible-lint
+      - molecule
+      - molecule-docker
+      - molecule-openstack
+      - yamllint
