@@ -1,0 +1,9 @@
+---
+name: ansible-2.10
+channels:
+  - base
+dependencies:
+  - pip:
+      - ansible>=2.10,<2.11
+      - ansible-lint
+      - yamllint
