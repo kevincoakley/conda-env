@@ -9,4 +9,5 @@ dependencies:
       - molecule
       - molecule-docker
       - molecule-openstack
+      - netaddr
       - yamllint
