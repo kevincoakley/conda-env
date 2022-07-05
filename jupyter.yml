@@ -9,3 +9,7 @@ dependencies:
   - pandas
   - python=3.10
   - seaborn
+  - pip:
+    - isort
+    - black
+    - jupyterlab_code_formatter
