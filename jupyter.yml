@@ -10,6 +10,6 @@ dependencies:
   - python=3.10
   - seaborn
   - pip:
-    - isort
-    - black
-    - jupyterlab_code_formatter
+      - isort
+      - black
+      - jupyterlab_code_formatter
