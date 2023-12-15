@@ -1,0 +1,12 @@
+name: tensorflow-metal-arm64
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.10  ## specify desired version
+  - pip
+  - tensorflow-deps
+
+  - pip:
+    - tensorflow-macos
+    - tensorflow-metal  
